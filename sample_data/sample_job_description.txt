@@ -1,0 +1,42 @@
+Senior Full-Stack Software Engineer
+
+Location: San Francisco, CA (Hybrid)
+Company: TechVision Inc.
+Salary: $150,000 - $200,000
+
+About Us:
+TechVision Inc. is a fast-growing SaaS company building next-generation analytics platforms. We're looking for a Senior Full-Stack Software Engineer to join our core product team.
+
+Responsibilities:
+- Design, develop, and maintain scalable web applications using React and Python
+- Build and optimize RESTful APIs and microservices architecture
+- Collaborate with product managers, designers, and other engineers
+- Lead code reviews and mentor junior developers
+- Implement CI/CD pipelines and ensure high code quality
+- Work with cloud infrastructure on AWS (EC2, S3, Lambda, RDS)
+- Optimize database queries and improve application performance
+- Participate in agile/scrum ceremonies and sprint planning
+
+Requirements:
+- 5+ years of experience in full-stack software development
+- Strong proficiency in Python (Django or Flask) and JavaScript (React or Angular)
+- Experience with PostgreSQL, MongoDB, or similar databases
+- Familiarity with AWS services (EC2, S3, Lambda, CloudFormation)
+- Experience with Docker, Kubernetes, and CI/CD pipelines
+- Strong understanding of RESTful API design and microservices
+- Experience with Git, GitHub, and agile development methodologies
+- Excellent problem-solving and communication skills
+
+Nice to Have:
+- Experience with TypeScript, Next.js, or GraphQL
+- Knowledge of machine learning or data engineering
+- Experience with Terraform or Infrastructure as Code
+- Contributions to open-source projects
+- Experience with Redis, Elasticsearch, or message queues (Kafka, RabbitMQ)
+
+Benefits:
+- Competitive salary and equity
+- Health, dental, and vision insurance
+- 401(k) matching
+- Flexible work arrangements
+- Professional development budget

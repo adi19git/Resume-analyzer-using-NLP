@@ -1,0 +1,24 @@
+# ============================================
+# AI Resume Analyzer - Python Dependencies
+# ============================================
+
+# Web Framework
+fastapi
+uvicorn[standard]
+python-multipart
+
+# File Parsing
+PyMuPDF
+python-docx
+
+# NLP & ML
+spacy>=3.7,<4.0
+scikit-learn
+nltk
+
+# Database
+sqlalchemy
+psycopg2-binary
+
+# Utilities
+python-dotenv
