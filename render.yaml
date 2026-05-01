@@ -15,5 +15,3 @@ databases:
   - name: resume-analyzer-db
     region: ohio
     plan: free
-    databaseName: resume_analyzer
-    user: postgres
