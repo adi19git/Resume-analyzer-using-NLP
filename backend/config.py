@@ -31,15 +31,14 @@ DATABASE_URL = os.getenv(
 )
 
 # ── CORS ──────────────────────────────────────────────────────────────
-# In production, restrict this to your actual frontend domain.
-CORS_ORIGINS = [
-    "http://localhost:3000",
-    "http://localhost:5500",
-    "http://localhost:8080",
-    "http://127.0.0.1:5500",
-    "http://127.0.0.1:8080",
-    "null",  # For file:// protocol during local development
-]
+# In production the frontend is served from the same origin as the API,
+# so we allow all origins. Override with CORS_ORIGINS env var if needed.
+_cors_env = os.getenv("CORS_ORIGINS", "")
+CORS_ORIGINS = (
+    [o.strip() for o in _cors_env.split(",") if o.strip()]
+    if _cors_env
+    else ["*"]
+)
 
 # ── spaCy Model ───────────────────────────────────────────────────────
 SPACY_MODEL = "en_core_web_sm"

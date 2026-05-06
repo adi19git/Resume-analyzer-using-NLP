@@ -30,12 +30,7 @@ STOP_WORDS = set(stopwords.words("english"))
 
 
 def preprocess_text(text: str) -> str:
-    """
-    Clean text for TF-IDF vectorization.
-    - Lowercase everything
-    - Remove special characters and extra whitespace
-    - Remove stopwords
-    """
+    
     text = text.lower()
     text = re.sub(r"[^a-z0-9\s\+\#\.]", " ", text)  # Keep +, #, . for C++, C#, etc.
     text = re.sub(r"\s+", " ", text).strip()
